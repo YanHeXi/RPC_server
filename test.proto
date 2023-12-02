@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package fixbug;
+
+message Login{
+    string name =1;
+    string pwd = 2;
+
+}
+message Response{
+
+    int32 e = 1;
+    bool su = 3;
+    
+}
