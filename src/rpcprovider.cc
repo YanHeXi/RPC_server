@@ -2,6 +2,7 @@
 #include "mprpcapplication.h"
 #include <string>
 #include <functional>
+#include <iostream>
 void RpcProvider::NotifyService(google::protobuf::Service *service)
 {
 }
@@ -31,7 +32,10 @@ void RpcProvider::Run()
                                         std::placeholders::_1,
                                         std::placeholders::_2,
                                         std::placeholders::_3));
+
     server.setThreadNum(4);
+    std::cout << "RPC_server start at ip: " << ip << ":" << port << std::endl;
+
     server.start();
 
     m_eventLoop.loop();
