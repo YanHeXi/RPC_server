@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o -o /home/yanhexi/BiliBili_YanHexi/RPC_server/bin/provider   -L/home/yanhexi/BiliBili_YanHexi/RPC_server/lib 
+/usr/bin/g++ -g -rdynamic CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o -o /home/yanhexi/BiliBili_YanHexi/RPC_server/bin/provider   -L/home/yanhexi/BiliBili_YanHexi/RPC_server/lib  -Wl,-rpath,/home/yanhexi/BiliBili_YanHexi/RPC_server/lib /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.so -lprotobuf 

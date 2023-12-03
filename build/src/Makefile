@@ -116,6 +116,68 @@ depend:
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/mprpc.dir/rule:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/rule
+.PHONY : src/CMakeFiles/mprpc.dir/rule
+
+# Convenience name for target.
+mprpc: src/CMakeFiles/mprpc.dir/rule
+.PHONY : mprpc
+
+# fast build rule for target.
+mprpc/fast:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+.PHONY : mprpc/fast
+
+mprpcappliation.o: mprpcappliation.cc.o
+.PHONY : mprpcappliation.o
+
+# target to build an object file
+mprpcappliation.cc.o:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o
+.PHONY : mprpcappliation.cc.o
+
+mprpcappliation.i: mprpcappliation.cc.i
+.PHONY : mprpcappliation.i
+
+# target to preprocess a source file
+mprpcappliation.cc.i:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.i
+.PHONY : mprpcappliation.cc.i
+
+mprpcappliation.s: mprpcappliation.cc.s
+.PHONY : mprpcappliation.s
+
+# target to generate assembly for a file
+mprpcappliation.cc.s:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.s
+.PHONY : mprpcappliation.cc.s
+
+rpcprovider.o: rpcprovider.cc.o
+.PHONY : rpcprovider.o
+
+# target to build an object file
+rpcprovider.cc.o:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
+.PHONY : rpcprovider.cc.o
+
+rpcprovider.i: rpcprovider.cc.i
+.PHONY : rpcprovider.i
+
+# target to preprocess a source file
+rpcprovider.cc.i:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.i
+.PHONY : rpcprovider.cc.i
+
+rpcprovider.s: rpcprovider.cc.s
+.PHONY : rpcprovider.s
+
+# target to generate assembly for a file
+rpcprovider.cc.s:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.s
+.PHONY : rpcprovider.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mprpc"
+	@echo "... mprpcappliation.o"
+	@echo "... mprpcappliation.i"
+	@echo "... mprpcappliation.s"
+	@echo "... rpcprovider.o"
+	@echo "... rpcprovider.i"
+	@echo "... rpcprovider.s"
 .PHONY : help
 
 

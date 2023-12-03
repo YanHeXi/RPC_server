@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libmprpc.so -o /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcappliation.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o   -L/home/yanhexi/BiliBili_YanHexi/RPC_server/lib 
