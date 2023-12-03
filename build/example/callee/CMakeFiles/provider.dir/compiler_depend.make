@@ -631,6 +631,7 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: /home/yanhexi/BiliBili_
   /usr/include/c++/12/cassert \
   /usr/local/include/google/protobuf/service.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcapplication.h \
+  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/rpcprovider.h
 
 
@@ -853,6 +854,8 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: /home/yanhexi/BiliBili_
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
