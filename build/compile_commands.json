@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/yanhexi/BiliBili_YanHexi/RPC_server/build/src",
-  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -fPIC -o CMakeFiles/mprpc.dir/mprpcappliation.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc",
+  "command": "/usr/bin/g++  -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -o CMakeFiles/mprpc.dir/mprpcappliation.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc",
   "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc"
 },
 {
   "directory": "/home/yanhexi/BiliBili_YanHexi/RPC_server/build/src",
-  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -fPIC -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc",
+  "command": "/usr/bin/g++  -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc",
   "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc"
 },
 {
   "directory": "/home/yanhexi/BiliBili_YanHexi/RPC_server/build/src",
-  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -fPIC -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc",
+  "command": "/usr/bin/g++  -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc",
   "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc"
 },
 {
