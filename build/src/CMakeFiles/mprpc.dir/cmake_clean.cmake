@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a"
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.pdb"
-  "CMakeFiles/mprpc.dir/mprpcappliation.cc.o"
-  "CMakeFiles/mprpc.dir/mprpcappliation.cc.o.d"
+  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d"
   "CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
   "CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d"
+  "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+  "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
   "CMakeFiles/mprpc.dir/rpcprovider.cc.o"
   "CMakeFiles/mprpc.dir/rpcprovider.cc.o.d"
 )

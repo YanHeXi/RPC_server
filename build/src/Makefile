@@ -130,29 +130,29 @@ mprpc/fast:
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
-mprpcappliation.o: mprpcappliation.cc.o
-.PHONY : mprpcappliation.o
+mprpcapplication.o: mprpcapplication.cc.o
+.PHONY : mprpcapplication.o
 
 # target to build an object file
-mprpcappliation.cc.o:
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o
-.PHONY : mprpcappliation.cc.o
+mprpcapplication.cc.o:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
+.PHONY : mprpcapplication.cc.o
 
-mprpcappliation.i: mprpcappliation.cc.i
-.PHONY : mprpcappliation.i
+mprpcapplication.i: mprpcapplication.cc.i
+.PHONY : mprpcapplication.i
 
 # target to preprocess a source file
-mprpcappliation.cc.i:
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.i
-.PHONY : mprpcappliation.cc.i
+mprpcapplication.cc.i:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.i
+.PHONY : mprpcapplication.cc.i
 
-mprpcappliation.s: mprpcappliation.cc.s
-.PHONY : mprpcappliation.s
+mprpcapplication.s: mprpcapplication.cc.s
+.PHONY : mprpcapplication.s
 
 # target to generate assembly for a file
-mprpcappliation.cc.s:
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcappliation.cc.s
-.PHONY : mprpcappliation.cc.s
+mprpcapplication.cc.s:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.s
+.PHONY : mprpcapplication.cc.s
 
 mprpcconfig.o: mprpcconfig.cc.o
 .PHONY : mprpcconfig.o
@@ -177,6 +177,30 @@ mprpcconfig.s: mprpcconfig.cc.s
 mprpcconfig.cc.s:
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 .PHONY : mprpcconfig.cc.s
+
+rpcheader.pb.o: rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.o
+
+# target to build an object file
+rpcheader.pb.cc.o:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
+
+rpcheader.pb.i: rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.i
+
+# target to preprocess a source file
+rpcheader.pb.cc.i:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
+
+rpcheader.pb.s: rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.s
+
+# target to generate assembly for a file
+rpcheader.pb.cc.s:
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
 
 rpcprovider.o: rpcprovider.cc.o
 .PHONY : rpcprovider.o
@@ -211,12 +235,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
-	@echo "... mprpcappliation.o"
-	@echo "... mprpcappliation.i"
-	@echo "... mprpcappliation.s"
+	@echo "... mprpcapplication.o"
+	@echo "... mprpcapplication.i"
+	@echo "... mprpcapplication.s"
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... rpcheader.pb.o"
+	@echo "... rpcheader.pb.i"
+	@echo "... rpcheader.pb.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"

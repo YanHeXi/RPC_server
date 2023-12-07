@@ -69,19 +69,19 @@ include src/CMakeFiles/mprpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/mprpc.dir/flags.make
 
-src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o: /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc
-src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o"
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o -MF CMakeFiles/mprpc.dir/mprpcappliation.cc.o.d -o CMakeFiles/mprpc.dir/mprpcappliation.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcapplication.cc
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o -MF CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcapplication.cc
 
-src/CMakeFiles/mprpc.dir/mprpcappliation.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcappliation.cc.i"
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc > CMakeFiles/mprpc.dir/mprpcappliation.cc.i
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcapplication.cc.i"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcapplication.cc > CMakeFiles/mprpc.dir/mprpcapplication.cc.i
 
-src/CMakeFiles/mprpc.dir/mprpcappliation.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcappliation.cc.s"
-	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcappliation.cc -o CMakeFiles/mprpc.dir/mprpcappliation.cc.s
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcapplication.cc.s"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcapplication.cc -o CMakeFiles/mprpc.dir/mprpcapplication.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc
@@ -97,10 +97,24 @@ src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcconfig.cc.s"
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc -o CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/rpcheader.pb.cc.i"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc > CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcheader.pb.cc.s"
+	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/rpcprovider.cc.o -MF CMakeFiles/mprpc.dir/rpcprovider.cc.o.d -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.i: cmake_force
@@ -113,19 +127,21 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.s: cmake_force
 
 # Object files for target mprpc
 mprpc_OBJECTS = \
-"CMakeFiles/mprpc.dir/mprpcappliation.cc.o" \
+"CMakeFiles/mprpc.dir/mprpcapplication.cc.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cc.o" \
+"CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cc.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
 
-/home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcappliation.cc.o
+/home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
 /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
+/home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
 /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yanhexi/BiliBili_YanHexi/RPC_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library /home/yanhexi/BiliBili_YanHexi/RPC_server/lib/libmprpc.a"
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/yanhexi/BiliBili_YanHexi/RPC_server/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
