@@ -11,12 +11,13 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
     const google::protobuf::ServiceDescriptor *pserviceDesc = service->GetDescriptor();
     std::string service_name = pserviceDesc->name();
     int methodCnt = pserviceDesc->method_count();
-
+    std::cout << "service_name:" << service_name << std::endl;
     for (int i = 0; i < methodCnt; i++)
     {
         const google::protobuf::MethodDescriptor *pmethodDesc = pserviceDesc->method(i);
         std::string method_name = pmethodDesc->name();
         service_info.m_methodMap.insert({method_name, pmethodDesc});
+        std::cout << method_name.c_str() << std::endl;
     }
     service_info.m_service = service;
     m_serviceMap.insert({service_name, service_info});
@@ -91,11 +92,13 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
 
     std::string args_str = recv_buf.substr(4 + header_size, args_size);
 
-    std::cout << "-----------------------" << std::endl;
-    std::cout << service_name << std::endl;
-    std::cout << method_name << std::endl;
-    std::cout << args_size << std::endl;
-    std::cout << "-----------------------" << std::endl;
+    std::cout << "============================================" << std::endl;
+    std::cout << "header_size: " << header_size << std::endl;
+    std::cout << "rpc_header_str: " << rpc_header_str << std::endl;
+    std::cout << "service_name: " << service_name << std::endl;
+    std::cout << "method_name: " << method_name << std::endl;
+    std::cout << "args_str: " << args_str << std::endl;
+    std::cout << "============================================" << std::endl;
 
     auto it = m_serviceMap.find(service_name);
     if (it == m_serviceMap.end())

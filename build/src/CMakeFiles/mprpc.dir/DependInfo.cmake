@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcapplication.cc" "src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d"
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcchannel.cc" "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o.d"
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpcconfig.cc" "src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d"
+  "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/mprpccontroller.cc" "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d"
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
   "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcprovider.cc" "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o.d"
   )

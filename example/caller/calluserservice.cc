@@ -12,16 +12,32 @@ int main(int argc, char **argv)
     request.set_pwd("123");
     fixbug::LoginResponse response;
     stub.Login(nullptr, &request, &response, nullptr);
-
-    if (response.result().errcode() == 0)
+    if (0 == response.result().errcode())
     {
-        std::cout << "rpc login success "
+        std::cout << "rpc login response success:"
                   << response.sucess() << std::endl;
     }
     else
     {
-        std::cout << "rpc login error : "
+
+        std::cout << "rpc login response error : "
                   << response.result().errmsg() << std::endl;
+    }
+    fixbug::RegisterRequest req;
+    req.set_id(2000);
+    req.set_name("hao");
+    req.set_pwd("123");
+    fixbug::RegisterResponse rsp;
+
+    stub.Register(nullptr, &req, &rsp, nullptr);
+
+    if (0 == rsp.result().errcode())
+    {
+        std::cout << "rpc register response success:" << rsp.sucess() << std::endl;
+    }
+    else
+    {
+        std::cout << "rpc register response error : " << rsp.result().errmsg() << std::endl;
     }
 
     return 0;

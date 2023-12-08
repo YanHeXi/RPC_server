@@ -280,6 +280,7 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/include/error.h /usr/include/x86_64-linux-gnu/bits/error.h \
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcapplication.h \
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
