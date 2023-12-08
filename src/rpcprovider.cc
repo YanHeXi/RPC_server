@@ -91,11 +91,11 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
 
     std::string args_str = recv_buf.substr(4 + header_size, args_size);
 
-    std::cout << "-----------------------";
+    std::cout << "-----------------------" << std::endl;
     std::cout << service_name << std::endl;
     std::cout << method_name << std::endl;
     std::cout << args_size << std::endl;
-    std::cout << "-----------------------";
+    std::cout << "-----------------------" << std::endl;
 
     auto it = m_serviceMap.find(service_name);
     if (it == m_serviceMap.end())

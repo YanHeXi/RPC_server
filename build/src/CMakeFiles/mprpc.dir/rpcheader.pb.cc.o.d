@@ -1,7 +1,7 @@
 src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: \
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.cc \
  /usr/include/stdc-predef.h \
- /home/yanhexi/BiliBili_YanHexi/RPC_server/src/rpcheader.pb.h \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/rpcheader.pb.h \
  /usr/include/c++/12/limits \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
