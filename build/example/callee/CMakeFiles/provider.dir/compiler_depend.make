@@ -632,6 +632,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: /home/yanhexi/BiliBil
   /usr/local/include/google/protobuf/service.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcapplication.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h \
+  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcchannel.h \
+  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/rpcprovider.h \
   /usr/include/muduo/net/TcpServer.h \
   /usr/include/muduo/base/Atomic.h \
@@ -832,6 +834,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: /home/yanhexi/BiliBil
 
 /usr/include/muduo/net/TcpServer.h:
 
+/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcchannel.h:
+
 /home/yanhexi/BiliBili_YanHexi/RPC_server/example/callee/friendservice.cc:
 
 /usr/include/x86_64-linux-gnu/bits/in.h:
@@ -847,6 +851,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: /home/yanhexi/BiliBil
 /usr/local/include/google/protobuf/extension_set.h:
 
 /usr/local/include/google/protobuf/stubs/stl_util.h:
+
+/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h:
 
 /usr/local/include/google/protobuf/stubs/callback.h:
 

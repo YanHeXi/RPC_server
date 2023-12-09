@@ -621,6 +621,7 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/yanhexi/Bil
   /usr/local/include/google/protobuf/generated_message_util.h \
   /usr/local/include/google/protobuf/any.h \
   /usr/local/include/google/protobuf/has_bits.h \
+  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h \
   /home/yanhexi/BiliBili_YanHexi/RPC_server/example/friend.pb.h \
   /usr/local/include/google/protobuf/generated_message_table_driven.h \
   /usr/local/include/google/protobuf/map.h \
@@ -648,6 +649,8 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/yanhexi/Bil
 /usr/local/include/google/protobuf/extension_set.h:
 
 /usr/local/include/google/protobuf/stubs/stl_util.h:
+
+/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h:
 
 /usr/local/include/google/protobuf/stubs/callback.h:
 

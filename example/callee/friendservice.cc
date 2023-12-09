@@ -4,6 +4,7 @@
 #include "mprpcapplication.h"
 #include "rpcprovider.h"
 #include <vector>
+#include "logger.h"
 
 class FriendService : public fixbug::FiendServiceRpc
 {
@@ -38,6 +39,8 @@ public:
 
 int main(int argc, char **argv)
 {
+    LOG_ERR("ddddd");
+    LOG_INFO("ddddd");
 
     MprpcApplication::Init(argc, argv);
 

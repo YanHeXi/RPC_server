@@ -634,6 +634,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o
  /usr/local/include/google/protobuf/service.h
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcapplication.h
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcchannel.h
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/rpcprovider.h
  /usr/include/muduo/net/TcpServer.h
  /usr/include/muduo/base/Atomic.h
