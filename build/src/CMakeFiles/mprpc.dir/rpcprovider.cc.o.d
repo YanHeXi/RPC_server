@@ -345,4 +345,20 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
  /usr/local/include/google/protobuf/map_entry_lite.h \
  /usr/local/include/google/protobuf/map_field_lite.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /usr/include/c++/12/cassert
+ /usr/include/c++/12/cassert \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/logger.h \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/lockqueue.h \
+ /usr/include/c++/12/queue /usr/include/c++/12/deque \
+ /usr/include/c++/12/bits/stl_deque.h /usr/include/c++/12/bits/deque.tcc \
+ /usr/include/c++/12/bits/stl_queue.h /usr/include/c++/12/thread \
+ /usr/include/c++/12/bits/std_thread.h \
+ /usr/include/c++/12/bits/this_thread_sleep.h \
+ /usr/include/c++/12/condition_variable \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/zookeeperutil.h \
+ /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h

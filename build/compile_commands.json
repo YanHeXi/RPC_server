@@ -35,6 +35,11 @@
   "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/logger.cc"
 },
 {
+  "directory": "/home/yanhexi/BiliBili_YanHexi/RPC_server/build/src",
+  "command": "/usr/bin/g++  -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/src/zookeeperutil.cc",
+  "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/src/zookeeperutil.cc"
+},
+{
   "directory": "/home/yanhexi/BiliBili_YanHexi/RPC_server/build/example/callee",
   "command": "/usr/bin/g++  -I/home/yanhexi/BiliBili_YanHexi/RPC_server/src/include -I/home/yanhexi/BiliBili_YanHexi/RPC_server/example -g -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/yanhexi/BiliBili_YanHexi/RPC_server/example/callee/friendservice.cc",
   "file": "/home/yanhexi/BiliBili_YanHexi/RPC_server/example/callee/friendservice.cc"

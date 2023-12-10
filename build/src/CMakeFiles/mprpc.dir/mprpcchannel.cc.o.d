@@ -288,4 +288,12 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/include/linux/close_range.h \
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcapplication.h \
  /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpcconfig.h \
- /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/mprpccontroller.h \
+ /home/yanhexi/BiliBili_YanHexi/RPC_server/src/include/zookeeperutil.h \
+ /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h
